@@ -1,0 +1,147 @@
+/*
+colors
+93827f-3c6997-f18f01-141115-140f2d*/
+
+/*
+revised colors
+7494EA - cornflower blue
+FFFD82 - yellow
+818479 - grey
+494947 - black
+E03616 - red
+*/
+
+body {
+/*    background-color: #3c6997;*/
+    background: linear-gradient(to bottom right, #7494EA, #818479);
+    font-family: 'Alegreya', 'Playfair Display', serif;
+    
+}
+
+.nav-bar {
+/*
+    font-family: serif;
+    font-size: 30px;*/
+    color:#7494EA;
+    align-self:flex-start;
+    border-right-color: #494947;
+    border: 3px solid;
+    position: relative;
+    height: 100px;
+    display:flex;
+    flex-direction: row;
+    background-color: #7494EA;
+    align-content:center;
+    padding: 0;
+}
+
+
+.menu {
+    font-family: 'Alegreya', 'Playfair Display', serif;
+    font-size: 30px;
+    color: #494947;
+    padding: 30px;
+    margin-left: 50px;
+    flex: 1;
+    justify-content: center;
+}
+
+.header {
+/*
+    display: flex;
+    justify-content: center;
+    height: 700px;
+    width: 500px;
+    margin: 10px;
+*/
+    width:100%;
+}
+    
+img {
+    margin: 0 20px;
+    height: 400px;
+    width: 400px;
+}
+
+h1 {
+    font-family: 'Alegreya', 'Playfair Display', serif;
+    font-size: 72px;
+    text-align: center;
+    color: #494947;
+}
+
+.button {
+    height: 100px;
+    width: 200px;
+    background-color: #f18f01;
+    border-radius: 10px;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-size : 48px;
+    font-weight: 300;
+    padding-top: 20px;
+    justify-content: center;
+    margin-left: 45%;
+/*
+    margin-left: 45%;
+    margin-bottom: 10px;
+*/
+}
+
+p {
+    text-align: justify;
+    text-indent: 5px;
+    color: #FFFD82;
+}
+
+.left {
+    float: left;
+    margin: 10px;
+    padding: 10px;
+    clear:left;
+}
+
+.right {
+    float: right;
+    margin: 10px;
+    padding: 10px;
+    clear: right;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.cards {
+width:500px;
+padding:10px;
+}
+
+.cards img {
+    width:100%;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+p {
+    font-size: 22px;
+}
+
+h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 50px;
+    text-align: center;
+    color: #E03616;
+}
+
+h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 50px;
+    text-align: center;
+    color: #494947;
+}
